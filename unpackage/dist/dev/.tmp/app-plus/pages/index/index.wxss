@@ -1,0 +1,164 @@
+.carousel {
+	width: 100%;
+	height: 440rpx;
+}
+/* 热门超英 start */
+.super-hot {
+	margin-top: 12rpx;
+	padding: 20rpx;
+}
+.hot-title-wapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.hot-ico {
+	width: 30rpx;
+	height: 30rpx;
+	margin-top: 15rpx;
+}
+.hot-title {
+	font-size: 20px;
+	margin-left: 10rpx;
+	font-weight: bold;
+}
+.scroll-hot {
+	width: 100%;
+	white-space: nowrap;
+}
+.single-poster {
+	display: inline-block;
+	margin-left: 20rpx;
+}
+.poster-wapper {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.poster {
+	height: 270rpx;
+	width: 200rpx;
+}
+.movie-name {
+	width: 200rpx;
+	margin-top: 10rpx;
+	font-size: 14px;
+	font-weight: bold;
+	/* name超出省略 */
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 热门超英 end */
+/* 热门预告 start */
+.hot-movies {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 0rpx 20rpx 20rpx 20rpx;
+}
+.hot-movies-single {
+	width: 640rpx;
+	height: 480rpx;
+	margin: 10rpx auto;
+}
+/* 热门预告 end */
+/* 猜你喜欢 start */
+.guess-u-like{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.single-like-movie{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding: 30rpx 20rpx;
+}
+.like-moive-poster{
+	width: 180rpx;
+	height: 240rpx;
+	border-radius: 3%;
+}
+.movie-desc{
+	width: 340rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.movie-title{
+	/* 电影名字超出省略 */
+	white-space: nowrap;
+	overflow: hidden;
+	/* text-overflow： ellipsis使用省略号，clip：修剪文本，string自定义文本 */
+	text-overflow: ellipsis;
+}
+.movie-info{
+	color: #808080;
+	font-size: 14px;
+}
+/* 点赞 */
+.movie-oper {
+	width: 140rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	border-left: 2px dashed #dbdbda;
+}
+.praise-ico {
+	width: 40rpx;
+	height: 40rpx;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+.praise-me {
+	font-size: 14px;
+	color: #feab2a;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+.animation-opacity {
+	font-weight: bold;
+	opacity: 0;
+}
+/* 猜你喜欢 end */
+
