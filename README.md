@@ -1,2 +1,2 @@
 # superHero-admin
-练习使用uni-app所写的一个小程序
+使用uniapp实现的超级英雄电影预告小程序
